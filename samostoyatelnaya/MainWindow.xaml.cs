@@ -28,11 +28,6 @@ namespace samostoyatelnaya
         private void tbn_button_clik(object sender, RoutedEventArgs e)
         {
 
-          
-
-
-
-
         }
 
 
@@ -57,12 +52,7 @@ namespace samostoyatelnaya
 
         private void baton_click(object sender, RoutedEventArgs e)
         {
-            var tbn_B = new iphone();
-            bool? result = tbn_B.ShowDialog();
-            if (result == true)
-            {
-                MessageBox.Show("Your request will be processed.");
-            }
+           MessageBox.Show(new Random().Next(5,100000).ToString() + "рублей");
         }
     }
 }
